@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    height: 100vh;
+
+}
+.contaner{
+    border:2px solid black;
+    height:400px ;
+    width: 40%;
+    text-align: center;
+}
+.contaner h2{
+    font-size: 3rem;
+    padding-top: 30px;
+}
+.calculation{
+    border-top: 1px solid black;
+    height: 65%;
+    margin: 30px 50px 20px 50px;
+}
+
+/* first input box*/
+
+.input_number{
+    display: flex;
+    padding: 40px 20px 0px 20px;
+    justify-content: space-between;
+}
+.input_box{
+    height: 2.5rem;
+    width: 12rem;
+    text-align: center;
+
+}
+
+/* Second opertaion box */
+
+.option_contaner{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+.option_box{
+    height: 2.5rem;
+    width: 10rem;
+    margin: 2px;
+}
+
+/* Third opertaion box */
+
+.result_contaner{
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.result_contaner h4{
+    font-size: 2rem;
+}
+.result_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 90px;
+    margin-left: 15px;
+    border: 2px solid rgb(7, 215, 194);
+}
+
+
