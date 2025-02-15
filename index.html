@@ -12,7 +12,10 @@
         <div class="calculation">
             <div class="input_number">
                 <input type="number" placeholder="First Number" id="num1" class="input_box"/>
-                <input type="number" placeholder="Second Number" id="num2" class="input_box"/>
+                <div class="secondNumber">
+                    <input type="number" placeholder="Second Number" id="num2" class="input_box"/>
+                </div>
+                
             </div>
             <div class="option_contaner">
                 <select id="option" class="option_box">
@@ -22,7 +25,7 @@
                     <option value="/"> Division </option>
                     <option value="%"> Modulus </option>
                 </select>
-                <button onclick="" class="option_box">Calculate</button>
+                <button onclick="calculate()" class="option_box">Calculate</button>
             </div>
             <div class="result_contaner">
                 <h4>Result</h4>

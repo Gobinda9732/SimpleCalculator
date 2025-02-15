@@ -10,10 +10,10 @@ body{
 
 }
 .contaner{
-    border:2px solid black;
     height:400px ;
     width: 40%;
     text-align: center;
+    box-shadow: 5px 5px 3px 8px rgb(87, 85, 85);
 }
 .contaner h2{
     font-size: 3rem;
